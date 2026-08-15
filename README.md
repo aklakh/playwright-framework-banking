@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 This repository contains a modular automation framework built with **Playwright**, implemented in both **Java** and **TypeScript**.  
-It demonstrates UI and API automation for **banking/payment flows** using the Parabank demo site, with CI/CD integration, Docker support, and reporting.
+It demonstrates UI and API automation for **banking/payment flows** using the Parabank demo site, with CI/CD integration, Docker support, and reporting..
 
 ---
 
