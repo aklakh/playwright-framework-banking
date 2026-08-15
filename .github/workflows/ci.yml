@@ -20,7 +20,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Run Maven tests
-        run: mvn -f src/main/java/pom.xml clean test
+        run: mvn clean test
 
   ts-tests:
     runs-on: ubuntu-latest
