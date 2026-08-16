@@ -21,7 +21,7 @@ public class LoginTest {
     @Test
     public void testLogin() {
         page.navigate("http://parabank.parasoft.com/parabank/index.htm");
-        page.fill("input[name='username']", "ahmad");
+        page.fill("input[name='username']", "user123");
         page.fill("input[name='password']", "test123");
         page.click("input[value='Log In']");
 

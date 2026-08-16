@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('View Transaction History', async ({ page }) => {
   await page.goto('http://parabank.parasoft.com/parabank/index.htm');
-  await page.fill('input[name="username"]', 'ahmad');
+  await page.fill('input[name="username"]', 'user123');
   await page.fill('input[name="password"]', 'test123');
   await page.click('input[value="Log In"]');
 
